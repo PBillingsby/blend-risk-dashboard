@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+:root {
+  --blend-green: #6FBF6B;
+  --blend-dark-green: #009959;
+  --blend-bg-primary: #0C0C0C;
+  --blend-bg-secondary: #1A1A1A;
+  --blend-bg-tertiary: #2A2A2A;
+  --blend-text-primary: #F5F5F5;
+  --blend-text-secondary: #A0A0A0;
+  --blend-text-tertiary: #7A7A7A;
+  --blend-border: #2A2A2A;
+}
+
+body {
+  background: var(--blend-bg-primary);
+  color: var(--blend-text-primary);
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+/* Blend-style scrollbar */
+::-webkit-scrollbar { width: 4px; }
+::-webkit-scrollbar-track { background: var(--blend-bg-secondary); }
+::-webkit-scrollbar-thumb { background: var(--blend-bg-tertiary); border-radius: 4px; }
