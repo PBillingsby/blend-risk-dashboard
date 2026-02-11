@@ -91,7 +91,7 @@ When Vault B's HF diverges during simulation (because weETH drops independently 
 
 ### State Management
 
-`useReducer` in a React context. Four actions: `START_SIMULATION`, `STOP_SIMULATION`, `PRICE_TICK`, `REBALANCE_TRIGGERED`, `RESET`. A `pricesRef` keeps interval callbacks from reading stale state.
+`useReducer` in a React context. 5 actions: `START_SIMULATION`, `STOP_SIMULATION`, `PRICE_TICK`, `REBALANCE_TRIGGERED`, `RESET`. A `pricesRef` keeps interval callbacks from reading stale state.
 
 ### Project Structure
 
@@ -113,7 +113,6 @@ lib/
 └── __tests__/            — 4 test files, 31 tests
 types/
 └── index.ts              — All TypeScript interfaces and discriminated unions
-hooks/                    — Custom hooks (if any)
 ```
 
 ### Key Decisions
