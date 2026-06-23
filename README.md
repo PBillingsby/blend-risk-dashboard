@@ -66,13 +66,13 @@ x = (targetHF × D × Pd  -  C × Pc × LT)
 **Worked example** — Vault A with wstETH at $1,956.71:
 
 ```
-Numerator:   1.25 × 15000 × 1.00  -  10 × 1956.71 × 0.85  =  2,117.96
-Denominator: 1956.71 × (1.25 × 0.995  -  0.85)              =    770.46
+Numerator:   1.25 × 15000 × 1.00  -  10 × 1956.71 × 0.85 = 2,117.96
+Denominator: 1956.71 × (1.25 × 0.995  -  0.85) = 770.46
 x = 2,117.96 / 770.46 = 2.749 wstETH
 
-New collateral: 10 - 2.749    = 7.251 wstETH
+New collateral: 10 - 2.749 = 7.251 wstETH
 Swap proceeds:  2.749 × $1,956.71 × 0.995 = $5,352.16
-New debt:       15,000 - 5,352.16  = $9,647.84
+New debt:       15,000 - 5,352.16 = $9,647.84
 New HF:         (7.251 × 1,956.71 × 0.85) / 9,647.84 = 1.25 ✓
 ```
 
